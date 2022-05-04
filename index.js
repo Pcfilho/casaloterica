@@ -68,6 +68,7 @@ var body = document.querySelector('body')
 var btnStart = document.getElementById('button_comecar')
 
 
+
 btn.addEventListener('click', function(){
     var container = document.querySelector('.main_sub')
     var mImg = document.querySelector('.main_imagem')
@@ -95,7 +96,7 @@ btn.addEventListener('click', function(){
         img.style.animationDuration = '3s'
         img.style.marginTop = '-164px'
         img.style.transition = '3s'
-        document.querySelector('.imagem_machine').src = "/Front-End/img/slot-machine-animate.svg";
+        document.querySelector('.imagem_machine').src = "img/slot-machine-animate.svg";
         
         
     }
