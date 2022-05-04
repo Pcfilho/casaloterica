@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/Back-End/index.js"></script>
+    <title>Casa Loterica</title>
+</head>
+<body>
+
+    <!-- Container Principal Texto e Titulo -->
+    <section class="principal">
+
+        <div class="main_descricao">
+            <h1>Casa Loterica</h1>
+            <p>  Neste site iremos gerar 6 numeros aleatorios de 0 a 60. Logo abaixo você clica no botão para abrir a uma janela e 
+                selecionar os números que você escolher, iremos fazer o sorteio
+                aleatoriamente e mostrar o resultado de cada dezena das 6 abertas.</p>
+        </div>
+
+    </section>
+
+    <!-- Container Secundaria Subtitulo e Botao -->
+    <section class="secundaria">
+        <div class="main_sub">
+            <p2>Clique no botao para 
+                abrir a janela
+                do sorteio e escolher 
+                seus 6 numeros  
+                da sorte!
+            </p2>
+
+            <div class="main_escolhas">
+                <button id="button_sorteio" class="button_machine" type="button">Sorteio</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Imagem -->
+    <div class="main_imagem">
+        <img class="imagem_machine" src="/Front-End/img/slotmachine.svg" alt="Slot Machine">
+    </div>
+
+    <div class="escolha_sorteio">
+            <div class="sorteados" id="input1" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+            <div class="sorteados" id="input2" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+            <div class="sorteados" id="input3" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+            <div class="sorteados" id="input4" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+            <div class="sorteados" id="input5" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+            <div class="sorteados" id="input6" maxlength="2">
+                <div class="randomize">
+                    
+                </div>
+            </div>
+    </div>
+    <div class="container_buttao">
+        <button id="button_comecar"  class="button_start" type="button">Sortear</button>
+    </div>
+    
+
+
+
+</body>
+</html>
