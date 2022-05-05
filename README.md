@@ -1,4 +1,4 @@
-# Casa Lotérica 🤑
+# Casa Lotérica 🏦
 Neste site iremos gerar uma sequência de seis números aleatórios de 01 a 60 toda vez que o usuário clicar no botão Sortear.
 
 <br>
